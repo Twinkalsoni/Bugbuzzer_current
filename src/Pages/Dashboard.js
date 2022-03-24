@@ -1,10 +1,12 @@
 import React from 'react'
 import { AppBar, Toolbar, Button, Typography, Grid} from '@mui/material'
 import { Box } from '@mui/system'
+// import Navbar from '../components/Navbar'
 
 const Dashboard = () => {
   return (
       <>
+      {/* <Navbar /> */}
       <AppBar color='inherit' position='fixed' sx={{ height:'70px'}}>
           <Toolbar >
             <Typography flexGrow={1}>
