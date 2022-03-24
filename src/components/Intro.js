@@ -6,7 +6,7 @@ const Intro = () => {
 <Grid container display="column" alignItems="center" justifyContent='center' >
 <Grid item>
 
-<Typography fontSize={40} fontWeight='bold'  align="center" mt={23}> 
+<Typography fontSize={40} fontWeight='bold'  align="center" mt={23} textAlign='left'> 
 Community sourced <span style={{color:'#D82148'}}>Bug reporting</span> and <span style = {{color:'#D82148'}}>Q&A</span> Platform
      </Typography>
      <Typography style={{margin:'91px', marginLeft:'14px', marginTop: '13px',
