@@ -17,7 +17,7 @@ const Navbar = () => {
     return (
       <div>
         <h1>{user.attributes.username} </h1>
-        {console.log(user.attributes, "userr")}
+        {/* {console.log(user.attributes, "userr")} */}
         <div id="address" class="text-muted my-3"></div>
 
         <Button onClick={() => logout()}>Log out</Button>
