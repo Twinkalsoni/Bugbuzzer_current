@@ -13,17 +13,19 @@ const Navbar = () => {
     useMoralis();
 
   // for displaying user name from Moralis use --> user.attributes.username <--
-  if (isAuthenticated) {
-    return (
-      <div>
-        <h1>{user.attributes.username} </h1>
-        {/* {console.log(user.attributes, "userr")} */}
-        <div id="address" class="text-muted my-3"></div>
+  // if (isAuthenticated) {
+  //   return (
+  //     <div>
+  //       <h1>
+  //         <div>{/* <Navbar /> */}</div>Nav bar{user.attributes.username}{" "}
+  //       </h1>
+  //       {/* {console.log(user.attributes, "userr")} */}
+  //       <div id="address" class="text-muted my-3"></div>
 
-        <Button onClick={() => logout()}>Log out</Button>
-      </div>
-    );
-  }
+  //       <Button onClick={() => logout()}>Log out</Button>
+  //     </div>
+  //   );
+  // }
   return (
     <AppBar color="inherit" position="fixed" sx={{ height: "70px" }}>
       <Toolbar>
@@ -95,11 +97,11 @@ const Navbar = () => {
             size="small"
             variant="outlined"
             sx={{ borderRadius: 2 }}
-            isLoading={isAuthenticating}
-            onClick={async () => {
-              await authenticate();
-              navigate("/dashboard");
-            }}
+            // isLoading={isAuthenticating}
+            // onClick={async () => {
+            //   await authenticate();
+            //   navigate("/dashboard");
+            // }}
           >
             Connect
           </Button>
