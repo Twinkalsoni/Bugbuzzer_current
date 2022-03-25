@@ -6,10 +6,12 @@ import DashboardNav from "./Pages/DashboardNav";
 import Lending from "./Pages/Lending";
 import DetailQandA from "./Pages/Q&Adetail";
 import QandAmodal from "./Pages/QandAmodal";
-
+import BugCompaigns from "./Pages/BountyCompaigns";
+import Detailbutton from './Pages/compaignsDetailbtn'
+import Participatebtn from "./Pages/compaignsParticipatebtn";
 export default function Router() {
   return useRoutes([
-    <DashboardNav />,
+    // <DashboardNav />,
 
     {
       path: "/dashboard",
@@ -22,12 +24,21 @@ export default function Router() {
       element: <QandAmodal />,
     },
 
+    {
+      path: "/dashboard/bugcampaigns",
+      element: <BugCompaigns />,
+    },
     // { path: "/", element: <Navigate to="/dashboard/app" /> },
-
+{
+  path : "/dashboard/bugcampaigns/detailbtn", element:<Detailbutton />
+},
+{
+path:"/dashboard/bugcampaigns/praticipatebtn", element:<Participatebtn />
+},
     {
       path: "/",
       element: <Lending />,
     },
-    <Footer />,
+    // <Footer />,
   ]);
 }
