@@ -29,7 +29,7 @@ const Dashboard = () => {
         <Compaigns />
         <BountyWinners />
       </Container>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

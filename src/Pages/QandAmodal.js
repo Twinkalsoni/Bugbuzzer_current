@@ -3,7 +3,7 @@ import { Grid, Paper, TextField, Typography, Button } from "@mui/material";
 import TextareaAutosize from "@mui/material/TextareaAutosize";
 import "./Style.css";
 const QandAmodal = () => {
-  const paperStyle = { height: "64vh", width: 500, marginTop: "127px" };
+  const paperStyle = { height: "67vh", width: 500, marginTop: "127px" };
   let tagInput;
   const [tags, setTags] = React.useState(["Tags", "Input"]);
 
@@ -44,22 +44,28 @@ const QandAmodal = () => {
           >
             Ask A Question
           </Typography>
-         
+
           <TextareaAutosize
-          required
+            required
             aria-label="minimum height"
             fullwidth
             // style={{ width: "auto", marginTop: "60px" }}
             minRows={3}
-            placeholder="Question"
+            placeholder="Ask your Question here!"
             style={{
               width: 450,
               marginTop: "60px",
-              borderColor: " rgb(216, 33, 72)",
+              // borderColor: " rgb(216, 33, 72)",
             }}
           />
 
-          <div className="input-tag">
+          <div
+            className="input-tag"
+            style={{
+              width: "26vw",
+              //  borderColor: " rgb(216, 33, 72)"
+            }}
+          >
             <ul className="input-tag__tags">
               {tags.map((tag, i) => (
                 <li key={tag}>

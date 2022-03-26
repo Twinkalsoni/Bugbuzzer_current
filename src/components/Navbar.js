@@ -74,7 +74,7 @@ const Navbar = () => {
           </Button>
           {/* </Link> */}
           {/* <Link to="hireexperts"> */}
-          <Button
+          {/* <Button
             style={{
               color: "black",
               fontWeight: "bold",
@@ -84,7 +84,7 @@ const Navbar = () => {
             variant="text"
           >
             Hire Experts{" "}
-          </Button>
+          </Button> */}
           {/* </Link> */}
 
           <Button

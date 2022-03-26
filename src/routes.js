@@ -9,6 +9,8 @@ import QandAmodal from "./Pages/QandAmodal";
 import BugCompaigns from "./Pages/BountyCompaigns";
 import Detailbutton from './Pages/compaignsDetailbtn'
 import Participatebtn from "./Pages/compaignsParticipatebtn";
+import Leaderboard from './Pages/Leaderboard';
+import Questiondetail from "./Pages/Questiondetail"
 export default function Router() {
   return useRoutes([
     // <DashboardNav />,
@@ -34,6 +36,12 @@ export default function Router() {
 },
 {
 path:"/dashboard/bugcampaigns/praticipatebtn", element:<Participatebtn />
+},
+{
+path:"/dashboard/leaderboard", element:<Leaderboard />
+},
+{
+path:"dashboard/QueAns/questiondetail" , element:<Questiondetail />
 },
     {
       path: "/",

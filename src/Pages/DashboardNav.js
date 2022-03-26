@@ -3,21 +3,22 @@ import { AppBar, Toolbar, Button, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { Link } from "react-router-dom";
 import QandAdetail from "./Q&Adetail";
+import BugLogo from "./BugBuzzer-Logo-Web.png";
 
 const DashboardNav = () => {
   return (
     <AppBar color="inherit" position="fixed" sx={{ height: "70px" }}>
       <Toolbar>
         <Typography flexGrow={1}>
-          <Link to="/">
+          <Link to="/dashboard">
             {/* <Typography flexGrow={1}> */}
-            <img src="BugBuzzer-Logo-Web.png" alt="logo" />
+            <img src={BugLogo} alt="logo" />
             {/* </Typography> */}
           </Link>
         </Typography>
 
         <Box m={1} p={2}>
-          <Button
+          {/* <Button
             style={{
               color: "black",
               fontWeight: "bold",
@@ -27,21 +28,8 @@ const DashboardNav = () => {
             variant="text"
           >
             Report Bug
-          </Button>
+          </Button> */}
 
-          <Link to="/dashboard/QueAns" style={{ textDecoration: "none" }}>
-            <Button
-              style={{
-                color: "black",
-                fontWeight: "bold",
-                textTransform: "capitalize",
-              }}
-              size="medium"
-              variant="text"
-            >
-              Q&A
-            </Button>
-          </Link>
           <Link to="/dashboard/bugcampaigns" style={{ textDecoration: "none" }}>
             <Button
               style={{
@@ -57,6 +45,7 @@ const DashboardNav = () => {
           </Link>
 
           <Button
+            href="/dashboard/leaderboard"
             style={{
               color: "black",
               fontWeight: "bold",
@@ -65,12 +54,25 @@ const DashboardNav = () => {
             size="medium"
             variant="text"
           >
-            Hire Experts{" "}
+            Leader Board{" "}
           </Button>
           <Link
             to="/dashboard/Question-form"
             style={{ textDecoration: "none" }}
           >
+            <Link to="/dashboard/QueAns" style={{ textDecoration: "none" }}>
+              <Button
+                style={{
+                  color: "black",
+                  fontWeight: "bold",
+                  textTransform: "capitalize",
+                }}
+                size="medium"
+                variant="text"
+              >
+                Q&A
+              </Button>
+            </Link>
             <Button
               variant="contained"
               size="small"

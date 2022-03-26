@@ -26,7 +26,7 @@ export default function Lending() {
         <BountyWinners />
       </Container>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

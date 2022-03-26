@@ -9,7 +9,7 @@ const App = () => {
     <>
     <DashboardNav />
       <Router />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
