@@ -41,7 +41,7 @@ path:"/dashboard/bugcampaigns/praticipatebtn", element:<Participatebtn />
 path:"/dashboard/leaderboard", element:<Leaderboard />
 },
 {
-path:"dashboard/QueAns/questiondetail" , element:<Questiondetail />
+path:"/dashboard/QueAns/questiondetail" , element:<Questiondetail />
 },
     {
       path: "/",

@@ -11,18 +11,25 @@ import { Box } from "@mui/system";
 import HomeIcon from "@mui/icons-material/Home";
 const Detailbutton = () => {
   return (
-    <div style={{ background: "#e3dada", height:"100vh", marginTop:"10%", border:"1px solid white" }}>
-      <Container style={{marginTop:"5%",marginBottom:0}}>
+    <div
+      style={{
+        background: "#e3dada",
+        height: "100vh",
+        marginTop: "10%",
+        border: "1px solid white",
+      }}
+    >
+      <Container style={{ marginTop: "5%", marginBottom: 0 }}>
         <Stack direction="row" spacing={10} justifyContent="center">
           <Card
             sx={{ width: "45%", height: "52vh", backgroundColor: "#FFFFFF" }}
           >
-            <CardContent style={{marginTop:"0%", justifyContent:"center"}}>
+            <CardContent style={{ marginTop: "0%", justifyContent: "center" }}>
               <Typography
                 variant="h6"
                 style={{
                   width: "100%",
-                  marginTop:"10%",
+                  marginTop: "10%",
                   float: "left",
                   color: "#D82148",
                   borderBottom: "2px solid #D82148",
@@ -71,42 +78,6 @@ const Detailbutton = () => {
               <br />
               <br />
               <br />
-
-              <Button
-                size="medium"
-                style={{
-                  fontSize: "15px",
-                  fontWeight: "bold",
-                  backgroundColor: "#D82148",
-                  color: "white",
-                  textTransform: "capitalize",
-                  marginTop: "15px",
-                  marginLeft: "-160px",
-                  padding: "10px",
-                  paddingLeft: "50px",
-                  paddingRight: "50px",
-                }}
-              >
-                Buy this book
-              </Button>
-              <Button
-                size="medium"
-                style={{
-                  fontSize: "15px",
-                  fontWeight: "bold",
-                  backgroundColor: "#D82148",
-                  color: "white",
-                  textTransform: "capitalize",
-                  marginTop: "15px",
-                  marginLeft: "20px",
-                  padding: "10px",
-                  paddingLeft: "30px",
-                  paddingRight: "40px",
-                  textAlign: "center",
-                }}
-              >
-                Get for Exchange
-              </Button>
             </CardContent>
           </Card>
           <Box
@@ -175,19 +146,3 @@ const Detailbutton = () => {
 };
 
 export default Detailbutton;
-
-// import React from "react";
-// import { Box } from "@mui/system";
-// import Avatar from "@mui/material/Avatar";
-
-// import { Container, Stack, Typography } from "@mui/material";
-
-// const Detailbutton = () => {
-//   return (
-//     <>
-
-//     </>
-//   );
-// };
-
-// export default Detailbutton;

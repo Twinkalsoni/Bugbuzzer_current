@@ -79,14 +79,14 @@ const DashboardNav = () => {
               style={{
                 backgroundColor: "#D82148",
                 textDecoration: "none",
-                textTransform: "capitalize",
+                textTransform: "initial",
                 border: "2px solid #D82148",
                 marginRight: "18px",
                 fontWeight: "bold",
               }}
               sx={{ borderRadius: 2 }}
             >
-              Ask question
+              Ask a Question
             </Button>
           </Link>
         </Box>

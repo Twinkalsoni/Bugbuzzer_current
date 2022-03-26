@@ -106,36 +106,38 @@ const Compaigns = () => {
                 10 March 2022 to 22 April 2022{" "}
               </span>
             </Typography>
-            <Button
-              href="/dashboard/bugcampaigns/praticipatebtn"
-              size="medium"
-              style={{
-                fontSize: "11px",
-                fontWeight: "bold",
-                backgroundColor: "#D82148",
-                color: "white",
-                marginTop: "18px",
-                // justifyContent:"center",
-                textTransform: "capitalize",
-              }}
-            >
-              Participate
-            </Button>
-            <Button
-              href="/dashboard/bugcampaigns/detailbtn"
-              size="medium"
-              style={{
-                fontSize: "11px",
-                fontWeight: "bold",
-                backgroundColor: "#D82148",
-                color: "white",
-                marginTop: "18px",
-                marginLeft: "3%",
-                textTransform: "capitalize",
-              }}
-            >
-              Detail
-            </Button>
+            <div style={{textAlign:"center"}}>
+              <Button
+                href="/dashboard/bugcampaigns/praticipatebtn"
+                size="medium"
+                style={{
+                  fontSize: "11px",
+                  fontWeight: "bold",
+                  backgroundColor: "#D82148",
+                  color: "white",
+                  marginTop: "18px",
+                  // justifyContent:"center",
+                  textTransform: "capitalize",
+                }}
+              >
+                Participate
+              </Button>
+              <Button
+                href="/dashboard/bugcampaigns/detailbtn"
+                size="medium"
+                style={{
+                  fontSize: "11px",
+                  fontWeight: "bold",
+                  backgroundColor: "#D82148",
+                  color: "white",
+                  marginTop: "18px",
+                  marginLeft: "3%",
+                  textTransform: "capitalize",
+                }}
+              >
+                Detail
+              </Button>
+            </div>
           </Box>
           <Box
             sx={{
@@ -198,36 +200,38 @@ const Compaigns = () => {
                 10 March 2022 to 22 April 2022{" "}
               </span>
             </Typography>
-            <Button
-              href="/dashboard/bugcampaigns/praticipatebtn"
-
-              size="medium"
-              style={{
-                fontSize: "11px",
-                fontWeight: "bold",
-                backgroundColor: "#D82148",
-                color: "white",
-                marginTop: "18px",
-                textTransform: "capitalize",
-              }}
-            >
-              Paticipate
-            </Button>
-            <Button
-              href="/dashboard/bugcampaigns/detailbtn"
-              size="medium"
-              style={{
-                fontSize: "11px",
-                fontWeight: "bold",
-                backgroundColor: "#D82148",
-                color: "white",
-                marginTop: "18px",
-                marginLeft: "3%",
-                textTransform: "capitalize",
-              }}
-            >
-              Detail
-            </Button>
+            <div style={{textAlign:"center"}}>
+              <Button
+                href="/dashboard/bugcampaigns/praticipatebtn"
+                size="medium"
+                style={{
+                  fontSize: "11px",
+                  fontWeight: "bold",
+                  backgroundColor: "#D82148",
+                  color: "white",
+                  marginTop: "18px",
+                  // justifyContent:"center",
+                  textTransform: "capitalize",
+                }}
+              >
+                Participate
+              </Button>
+              <Button
+                href="/dashboard/bugcampaigns/detailbtn"
+                size="medium"
+                style={{
+                  fontSize: "11px",
+                  fontWeight: "bold",
+                  backgroundColor: "#D82148",
+                  color: "white",
+                  marginTop: "18px",
+                  marginLeft: "3%",
+                  textTransform: "capitalize",
+                }}
+              >
+                Detail
+              </Button>
+            </div>
           </Box>
           <Box
             sx={{
@@ -289,36 +293,38 @@ const Compaigns = () => {
                 10 March 2022 to 22 April 2022{" "}
               </span>
             </Typography>
-            <Button
-              href="/dashboard/bugcampaigns/praticipatebtn"
-
-              size="medium"
-              style={{
-                fontSize: "11px",
-                fontWeight: "bold",
-                backgroundColor: "#D82148",
-                color: "white",
-                marginTop: "18px",
-                textTransform: "capitalize",
-              }}
-            >
-              Paticipate
-            </Button>
-            <Button
-              href="/dashboard/bugcampaigns/detailbtn"
-              size="medium"
-              style={{
-                fontSize: "11px",
-                fontWeight: "bold",
-                backgroundColor: "#D82148",
-                color: "white",
-                marginTop: "18px",
-                marginLeft: "3%",
-                textTransform: "capitalize",
-              }}
-            >
-              Detail
-            </Button>
+            <div style={{textAlign:"center"}}>
+              <Button
+                href="/dashboard/bugcampaigns/praticipatebtn"
+                size="medium"
+                style={{
+                  fontSize: "11px",
+                  fontWeight: "bold",
+                  backgroundColor: "#D82148",
+                  color: "white",
+                  marginTop: "18px",
+                  // justifyContent:"center",
+                  textTransform: "capitalize",
+                }}
+              >
+                Participate
+              </Button>
+              <Button
+                href="/dashboard/bugcampaigns/detailbtn"
+                size="medium"
+                style={{
+                  fontSize: "11px",
+                  fontWeight: "bold",
+                  backgroundColor: "#D82148",
+                  color: "white",
+                  marginTop: "18px",
+                  marginLeft: "3%",
+                  textTransform: "capitalize",
+                }}
+              >
+                Detail
+              </Button>
+            </div>
           </Box>
           <Box
             sx={{
@@ -381,36 +387,38 @@ const Compaigns = () => {
                 10 March 2022 to 22 April 2022{" "}
               </span>
             </Typography>
-            <Button
-              href="/dashboard/bugcampaigns/praticipatebtn"
-
-              size="medium"
-              style={{
-                fontSize: "11px",
-                fontWeight: "bold",
-                backgroundColor: "#D82148",
-                color: "white",
-                marginTop: "18px",
-                textTransform: "capitalize",
-              }}
-            >
-              Paticipate
-            </Button>
-            <Button
-              href="/dashboard/bugcampaigns/detailbtn"
-              size="medium"
-              style={{
-                fontSize: "11px",
-                fontWeight: "bold",
-                backgroundColor: "#D82148",
-                color: "white",
-                marginTop: "18px",
-                marginLeft: "3%",
-                textTransform: "capitalize",
-              }}
-            >
-              Detail
-            </Button>
+            <div style={{textAlign:"center"}}>
+              <Button
+                href="/dashboard/bugcampaigns/praticipatebtn"
+                size="medium"
+                style={{
+                  fontSize: "11px",
+                  fontWeight: "bold",
+                  backgroundColor: "#D82148",
+                  color: "white",
+                  marginTop: "18px",
+                  // justifyContent:"center",
+                  textTransform: "capitalize",
+                }}
+              >
+                Participate
+              </Button>
+              <Button
+                href="/dashboard/bugcampaigns/detailbtn"
+                size="medium"
+                style={{
+                  fontSize: "11px",
+                  fontWeight: "bold",
+                  backgroundColor: "#D82148",
+                  color: "white",
+                  marginTop: "18px",
+                  marginLeft: "3%",
+                  textTransform: "capitalize",
+                }}
+              >
+                Detail
+              </Button>
+            </div>
           </Box>
         </Stack>
       </Container>

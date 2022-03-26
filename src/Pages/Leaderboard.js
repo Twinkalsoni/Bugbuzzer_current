@@ -191,16 +191,3 @@ const Leaderboard = () => {
 
 export default Leaderboard;
 
-// import React from "react";
-// import BountyWinners from "../components/BountyWinners";
-// import { Container } from "@mui/material";
-
-// export default function Leaderboard() {
-//   return (
-//     <div>
-//       <Container>
-//         <BountyWinners />
-//       </Container>
-//     </div>
-//   );
-// }

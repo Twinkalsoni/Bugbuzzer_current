@@ -8,10 +8,10 @@ const QandAdetail = () => {
   return (
     <>
       <Container>
-        <Typography fontWeight="bold" variant="h4" mt={10} mb={-4}>
+        <Typography fontWeight="bold" variant="h4" mt={20} mb={-4}>
           Recently <span style={{ color: "#D82148" }}>Asked Questions</span>
         </Typography>
-        <Grid item>
+        {/* <Grid item>
           <Box display="flex" justifyContent="flex-end">
             <Button
               style={{
@@ -28,7 +28,7 @@ const QandAdetail = () => {
               Answers
             </Button>
           </Box>
-        </Grid>
+        </Grid> */}
 
         <Box mt={10}>
           <Box
@@ -36,7 +36,7 @@ const QandAdetail = () => {
             mb={4}
             ml={-2}
           >
-            <Link to="dashboard/QueAns/questiondetail" style={{textDecoration:"none"}}>
+            <Link to="/dashboard/QueAns/questiondetail" style={{textDecoration:"none"}}>
               <Typography color="black">
                 <span style={{ fontWeight: "bold" }}>
                   {" "}
@@ -56,7 +56,7 @@ const QandAdetail = () => {
             mb={4}
             ml={-2}
           >
-            <Link to="dashboard/QueAns/questiondetail" style={{textDecoration:"none"}}>
+            <Link to="/dashboard/QueAns/questiondetail" style={{textDecoration:"none"}}>
               <Typography color="black">
                 <span style={{ fontWeight: "bold" }}>
                   {" "}
@@ -75,7 +75,7 @@ const QandAdetail = () => {
             mb={4}
             ml={-2}
           >
-            <Link to="dashboard/QueAns/questiondetail" style={{textDecoration:"none"}}>
+            <Link to="/dashboard/QueAns/questiondetail" style={{textDecoration:"none"}}>
               <Typography color="black">
                 <span style={{ fontWeight: "bold" }}>
                   {" "}
@@ -94,7 +94,7 @@ const QandAdetail = () => {
             mb={4}
             ml={-2}
           >
-            <Link to="dashboard/QueAns/questiondetail" style={{textDecoration:"none"}}>
+            <Link to="/dashboard/QueAns/questiondetail" style={{textDecoration:"none"}}>
               <Typography color="black">
                 <span style={{ fontWeight: "bold" }}>
                   {" "}
@@ -113,7 +113,7 @@ const QandAdetail = () => {
             mb={4}
             ml={-2}
           >
-            <Link to="dashboard/QueAns/questiondetail" style={{textDecoration:"none"}}>
+            <Link to="/dashboard/QueAns/questiondetail" style={{textDecoration:"none"}}>
               <Typography color="black">
                 <span style={{ fontWeight: "bold" }}>
                   {" "}
@@ -132,7 +132,7 @@ const QandAdetail = () => {
             mb={4}
             ml={-2}
           >
-            <Link to="dashboard/QueAns/questiondetail" style={{textDecoration:"none"}}>
+            <Link to="/dashboard/QueAns/questiondetail" style={{textDecoration:"none"}}>
               <Typography color="black">
                 <span style={{ fontWeight: "bold" }}>
                   {" "}
