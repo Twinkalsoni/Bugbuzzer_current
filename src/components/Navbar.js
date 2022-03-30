@@ -3,12 +3,11 @@ import { useMoralis } from "react-moralis";
 import { useNavigate } from "react-router-dom";
 import { AppBar, Toolbar, Button, Typography, Divider } from "@mui/material";
 import { Box } from "@mui/system";
-// import
-// import { Link } from 'react-router-dom'
+import DashboardNav from "../Pages/DashboardNav";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  // const { authenticate } = useMoralis();
   const { authenticate, isAuthenticated, isAuthenticating, logout, user } =
     useMoralis();
 
@@ -17,7 +16,7 @@ const Navbar = () => {
   //   return (
   //     <div>
   //       <h1>
-  //         <div>{/* <Navbar /> */}</div>Nav bar{user.attributes.username}{" "}
+  //         <div>helooooo</div>Nav bar{user.attributes.username}{" "}
   //       </h1>
   //       {/* {console.log(user.attributes, "userr")} */}
   //       <div id="address" class="text-muted my-3"></div>
@@ -72,20 +71,6 @@ const Navbar = () => {
           >
             Bounty Campaign
           </Button>
-          {/* </Link> */}
-          {/* <Link to="hireexperts"> */}
-          {/* <Button
-            style={{
-              color: "black",
-              fontWeight: "bold",
-              textTransform: "capitalize",
-            }}
-            size="medium"
-            variant="text"
-          >
-            Hire Experts{" "}
-          </Button> */}
-          {/* </Link> */}
 
           <Button
             style={{
@@ -97,11 +82,11 @@ const Navbar = () => {
             size="small"
             variant="outlined"
             sx={{ borderRadius: 2 }}
-            // isLoading={isAuthenticating}
-            // onClick={async () => {
-            //   await authenticate();
-            //   navigate("/dashboard");
-            // }}
+            isLoading={isAuthenticating}
+            onClick={async () => {
+              await authenticate();
+              navigate("/dashboard");
+            }}
           >
             Connect
           </Button>
