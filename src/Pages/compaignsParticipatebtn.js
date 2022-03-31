@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Stack,
   TextField,
@@ -12,9 +12,11 @@ import DialogActions from "@mui/material/DialogActions";
 import Grid from "@material-ui/core/Grid";
 import Button from "@mui/material/Button";
 import { useFormik, Form, FormikProvider } from "formik";
-import { useMoralis } from "react-moralis";
+import { useMoralis, useMoralisCloudFunction } from "react-moralis";
 
 export default function Participatebtn(props) {
+  // const { data, isLoading } = useMoralisCloudFunction("getAllUser");
+
   const { Moralis, user } = useMoralis();
 
   const [tags, setTags] = React.useState(["Tags"]);
@@ -25,6 +27,9 @@ export default function Participatebtn(props) {
   let tagInput;
 
   const [value, setValue] = React.useState(0);
+  // useEffect(() => {
+  //   fetch();
+  // }, ['']);
 
   const handleChange = (event, val) => {
     setValue(val);
@@ -40,6 +45,7 @@ export default function Participatebtn(props) {
       tags: "",
       description: "",
     },
+
     onSubmit: async (values, { resetForm }) => {
       const formData = {
         title: values.title,
@@ -87,6 +93,13 @@ export default function Participatebtn(props) {
     }
   };
 
+  // cloud function ---------------------------------------------------->>>>>>>>
+  const { fetch, data } = useMoralisCloudFunction("getParticipate", {
+    autoFetch: true,
+  });
+  console.log(data, "cloud--->");
+  // cloud function ---------------------------------------------------->>>>>>>>>
+
   return (
     <Container>
       <Typography
@@ -114,6 +127,7 @@ export default function Participatebtn(props) {
         <Stack spacing={3}>
           <TextField
             onChange={(e) => SetbugTitle(e.target.value)}
+            // title={title}
             required
             fullWidth
             label="Bug Title"
