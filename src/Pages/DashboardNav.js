@@ -6,6 +6,7 @@ import QandAdetail from "./Q&Adetail";
 import BugLogo from "./BugBuzzer-Logo-Web.png";
 import { useMoralis } from "react-moralis";
 import { useNavigate } from "react-router-dom";
+import User from "./user";
 
 const DashboardNav = () => {
   const { Moralis, user, logout, isAuthenticated } = useMoralis();
@@ -89,8 +90,10 @@ const DashboardNav = () => {
             }}
             // sx={{ borderRadius: 2 }}
           >
-            <Avatar name= {user?.attributes.username} />
-            {user?.attributes.username}
+            <User />
+            {/* <Avatar />
+            {"  "}
+            {user?.attributes.username} */}
           </Button>
         </Box>
         <Button

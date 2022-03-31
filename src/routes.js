@@ -11,6 +11,8 @@ import Detailbutton from './Pages/compaignsDetailbtn'
 import Participatebtn from "./Pages/compaignsParticipatebtn";
 import Leaderboard from './Pages/Leaderboard';
 import Questiondetail from "./Pages/Questiondetail"
+import User from "./Pages/user"
+import UserProfile from "./Pages/userProfile";
 export default function Router() {
   return useRoutes([
     // <DashboardNav />,
@@ -19,6 +21,9 @@ export default function Router() {
       path: "/dashboard",
       element: <Dashboard />,
     },
+    {
+      path:"/dashboard/userProfile" , element:<UserProfile />
+      },
     { path: "/dashboard/QueAns", element: <DetailQandA /> },
 
     {
