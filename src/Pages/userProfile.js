@@ -15,8 +15,8 @@ export default function UserProfile() {
         <>
             <Container>
                 <Grid item xs={4} sm={6} md={12}>
-                    <div style={{ marginTop: "20vh", marginBottom: "20vh" }}>
-                        <Box 
+                    <div style={{ marginTop: "20vh", marginBottom: "10vh" }}>
+                        <Box
                             sx={{
                                 height: "190px",
                                 width: "100%",
@@ -44,8 +44,9 @@ export default function UserProfile() {
                         </Box>
                         <Box sx={{ ml: "14%", mt: "-7%" }}>
                             <Typography variant="subtitle1" fontWeight="bold">EoKCWV9PLGLN5KjicoPAhh10q
-                                <Button variant="contained" size="medium" sx={{ backgroundColor: "#D82142", ml: "66%", color: "FFFFF ", textTransform: "none"}}>Follow</Button>
-
+                                <Button variant="contained" size="small" style={{ backgroundColor: "#D82148", border: "2px solid #D82148", fontWeight: "bold", }} sx={{ float: 'right',  display:{xs:"inline-flex",md:"block"} }}>
+                                    Follow
+                                </Button>
                             </Typography>
 
                             <Typography variant="subtitle2" color="#C4C4C4">EoKCWV9PLGLN5KjicoPAhh10q
